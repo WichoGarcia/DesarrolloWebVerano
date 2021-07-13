@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo > img {
+  width: 50px;
+}
+
+@media (max-width:767px){
+  img{
+    display: flex;
+    margin-right: auto;
+    margin-left:auto ;
+  }
+  h1{
+    text-align: center;
+  }
+  .menu{
+    display: none;
+  }
+  .hamburger{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: lightslategray;
+    color: white;
+    margin-bottom: 30px;
+  }
+
+  .product{
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 2px solid black;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+
+  .social{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width:768px) and (max-width:1024px){
+
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .menu{
+    display: none;
+  }
+  .hamburger{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: lightslategray;
+    color: white;
+    margin-bottom: 30px;
+  }
+
+  .product{
+    margin-left: 3%;
+    margin-right: 3%;
+    border: 2px solid black;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+
+  .social{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width:1025px){
+
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .menu{
+    background-color: lightslategray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    color: white;
+  }
+  .hamburger{
+    display: none;
+  }
+
+  .product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:1px solid black;
+    width: 30%;
+    padding-left: 1.5px;
+    padding-right: 1.5px;
+    font-size: 15px;
+  }
+
+  main{
+    display: flex;
+    justify-content: space-around;
+  }
+  .social{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+  }
+}
