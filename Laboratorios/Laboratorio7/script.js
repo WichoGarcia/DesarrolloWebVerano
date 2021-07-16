@@ -27,7 +27,7 @@ $("#animal-buttons").on("click", ".animal-button", function() {
 // search term
 var type = $(this).attr("data-type");
  
-var queryURL  = "http://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=IljukOXpHhUiYmxqAHzeT3d7ZVfublVG&limit=25";
+var queryURL  = "http://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=vH8niZahCDEtU5bZdPPZJXsT6xlsFVga&limit=25";
  
 $.ajax ({
     url: queryURL,
