@@ -10,20 +10,10 @@ app.use(express.json());
 
 
 var tables =[
-    {
-        name: "luis",
-        phone: 55555555,
-        mail: "luis@desarrolloweb.com",
-        id: 1
-    }
+
 ];
 var waitinglist=[
-    {
-        name: "luis",
-        phone: 55555555,
-        mail: "luis@desarrolloweb.com",
-        id: 1
-    }
+
 ];
 
 app.get("/",function(req,res){
